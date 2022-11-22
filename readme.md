@@ -50,7 +50,12 @@ First lets create an env file while will help us in keeping the kafka server set
 conda create -n kafka python=3.8
 ```
 2. Install the requirements
+
 ```bash
+# kafka-python==2.0.2
+# fastapi[all]== 0.75.1
+# python-dotenv==0.20.0
+# Faker==13.3.4
 pip install -r requirements.txt
 ```
 
